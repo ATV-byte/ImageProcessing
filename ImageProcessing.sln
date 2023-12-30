@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web App Microservice", "Web App Microservice", "{936B107C-F875-4EBC-A165-4EBE50345A56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Communication Microservice", "Communication Microservice", "{DC4E7219-EF88-496E-9523-76DCBBE3C82A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppMicroservice", "WebAppMicroservice\WebAppMicroservice.csproj", "{2A964CEA-1669-45B2-BA41-696BDAA66791}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommunicationMicroservice", "CommunicationMicroservice\CommunicationMicroservice.csproj", "{F09E793C-A21E-4FAC-9EAA-373B7DA8BE9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImageProcessing", "ImageProcessing", "{330E01E6-D3F0-4DE1-BBEF-E0882CDD1E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrayScale", "GrayScale\GrayScale.csproj", "{AD4DE7B6-571B-4B2F-86D0-68601C2327DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A964CEA-1669-45B2-BA41-696BDAA66791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A964CEA-1669-45B2-BA41-696BDAA66791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A964CEA-1669-45B2-BA41-696BDAA66791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A964CEA-1669-45B2-BA41-696BDAA66791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09E793C-A21E-4FAC-9EAA-373B7DA8BE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09E793C-A21E-4FAC-9EAA-373B7DA8BE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09E793C-A21E-4FAC-9EAA-373B7DA8BE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09E793C-A21E-4FAC-9EAA-373B7DA8BE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4DE7B6-571B-4B2F-86D0-68601C2327DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4DE7B6-571B-4B2F-86D0-68601C2327DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4DE7B6-571B-4B2F-86D0-68601C2327DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4DE7B6-571B-4B2F-86D0-68601C2327DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A964CEA-1669-45B2-BA41-696BDAA66791} = {936B107C-F875-4EBC-A165-4EBE50345A56}
+		{F09E793C-A21E-4FAC-9EAA-373B7DA8BE9A} = {DC4E7219-EF88-496E-9523-76DCBBE3C82A}
+		{AD4DE7B6-571B-4B2F-86D0-68601C2327DC} = {330E01E6-D3F0-4DE1-BBEF-E0882CDD1E3D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A174FAC-5223-456E-A6F4-1DE2407604E4}
+	EndGlobalSection
+EndGlobal
